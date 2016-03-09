@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EF30A97CAB2918650D9D0BA /* Pods_AwsUpload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ECD3E1C12BDC860E2EC45A7 /* Pods_AwsUpload.framework */; };
+		26C3338D1C8B43CB00E187D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C3338C1C8B43CB00E187D6 /* AppDelegate.swift */; };
+		26C3338F1C8B43CB00E187D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C3338E1C8B43CB00E187D6 /* ViewController.swift */; };
+		26C333921C8B43CB00E187D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C333901C8B43CB00E187D6 /* Main.storyboard */; };
+		26C333951C8B43CC00E187D6 /* AwsUpload.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26C333931C8B43CC00E187D6 /* AwsUpload.xcdatamodeld */; };
+		26C333971C8B43CC00E187D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C333961C8B43CC00E187D6 /* Assets.xcassets */; };
+		26C3339A1C8B43CC00E187D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C333981C8B43CC00E187D6 /* LaunchScreen.storyboard */; };
+		26C333A51C8B43CC00E187D6 /* AwsUploadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C333A41C8B43CC00E187D6 /* AwsUploadTests.swift */; };
+		26C333B01C8B43CC00E187D6 /* AwsUploadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C333AF1C8B43CC00E187D6 /* AwsUploadUITests.swift */; };
+		26E7B11E1C90E0600022F7EB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E7B11D1C90E0600022F7EB /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26C333A11C8B43CC00E187D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26C333811C8B43CB00E187D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26C333881C8B43CB00E187D6;
+			remoteInfo = AwsUpload;
+		};
+		26C333AC1C8B43CC00E187D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26C333811C8B43CB00E187D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26C333881C8B43CB00E187D6;
+			remoteInfo = AwsUpload;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19F3E191217B76584AA57B47 /* Pods-AwsUpload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwsUpload.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwsUpload/Pods-AwsUpload.release.xcconfig"; sourceTree = "<group>"; };
+		26C333891C8B43CB00E187D6 /* AwsUpload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwsUpload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C3338C1C8B43CB00E187D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26C3338E1C8B43CB00E187D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26C333911C8B43CB00E187D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26C333941C8B43CC00E187D6 /* AwsUpload.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AwsUpload.xcdatamodel; sourceTree = "<group>"; };
+		26C333961C8B43CC00E187D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26C333991C8B43CC00E187D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26C3339B1C8B43CC00E187D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26C333A01C8B43CC00E187D6 /* AwsUploadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwsUploadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C333A41C8B43CC00E187D6 /* AwsUploadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwsUploadTests.swift; sourceTree = "<group>"; };
+		26C333A61C8B43CC00E187D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26C333AB1C8B43CC00E187D6 /* AwsUploadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwsUploadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C333AF1C8B43CC00E187D6 /* AwsUploadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwsUploadUITests.swift; sourceTree = "<group>"; };
+		26C333B11C8B43CC00E187D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26E7B11D1C90E0600022F7EB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4DB1F5BE9ED77F0F811764A1 /* Pods-AwsUpload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwsUpload.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwsUpload/Pods-AwsUpload.debug.xcconfig"; sourceTree = "<group>"; };
+		5ECD3E1C12BDC860E2EC45A7 /* Pods_AwsUpload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwsUpload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26C333861C8B43CB00E187D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF30A97CAB2918650D9D0BA /* Pods_AwsUpload.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C3339D1C8B43CC00E187D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C333A81C8B43CC00E187D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23305A082ACB436852530F0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DB1F5BE9ED77F0F811764A1 /* Pods-AwsUpload.debug.xcconfig */,
+				19F3E191217B76584AA57B47 /* Pods-AwsUpload.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		26C333801C8B43CB00E187D6 = {
+			isa = PBXGroup;
+			children = (
+				26C3338B1C8B43CB00E187D6 /* AwsUpload */,
+				26C333A31C8B43CC00E187D6 /* AwsUploadTests */,
+				26C333AE1C8B43CC00E187D6 /* AwsUploadUITests */,
+				26C3338A1C8B43CB00E187D6 /* Products */,
+				23305A082ACB436852530F0D /* Pods */,
+				ADA23307984B4EDB9CF40CDD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26C3338A1C8B43CB00E187D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26C333891C8B43CB00E187D6 /* AwsUpload.app */,
+				26C333A01C8B43CC00E187D6 /* AwsUploadTests.xctest */,
+				26C333AB1C8B43CC00E187D6 /* AwsUploadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26C3338B1C8B43CB00E187D6 /* AwsUpload */ = {
+			isa = PBXGroup;
+			children = (
+				26C3338C1C8B43CB00E187D6 /* AppDelegate.swift */,
+				26C3338E1C8B43CB00E187D6 /* ViewController.swift */,
+				26E7B11D1C90E0600022F7EB /* Constants.swift */,
+				26C333901C8B43CB00E187D6 /* Main.storyboard */,
+				26C333961C8B43CC00E187D6 /* Assets.xcassets */,
+				26C333981C8B43CC00E187D6 /* LaunchScreen.storyboard */,
+				26C3339B1C8B43CC00E187D6 /* Info.plist */,
+				26C333931C8B43CC00E187D6 /* AwsUpload.xcdatamodeld */,
+			);
+			path = AwsUpload;
+			sourceTree = "<group>";
+		};
+		26C333A31C8B43CC00E187D6 /* AwsUploadTests */ = {
+			isa = PBXGroup;
+			children = (
+				26C333A41C8B43CC00E187D6 /* AwsUploadTests.swift */,
+				26C333A61C8B43CC00E187D6 /* Info.plist */,
+			);
+			path = AwsUploadTests;
+			sourceTree = "<group>";
+		};
+		26C333AE1C8B43CC00E187D6 /* AwsUploadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26C333AF1C8B43CC00E187D6 /* AwsUploadUITests.swift */,
+				26C333B11C8B43CC00E187D6 /* Info.plist */,
+			);
+			path = AwsUploadUITests;
+			sourceTree = "<group>";
+		};
+		ADA23307984B4EDB9CF40CDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5ECD3E1C12BDC860E2EC45A7 /* Pods_AwsUpload.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26C333881C8B43CB00E187D6 /* AwsUpload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26C333B41C8B43CC00E187D6 /* Build configuration list for PBXNativeTarget "AwsUpload" */;
+			buildPhases = (
+				AD9C94C32BB0015CF22DE613 /* Check Pods Manifest.lock */,
+				26C333851C8B43CB00E187D6 /* Sources */,
+				26C333861C8B43CB00E187D6 /* Frameworks */,
+				26C333871C8B43CB00E187D6 /* Resources */,
+				CE0F798723197782C0FFA216 /* Embed Pods Frameworks */,
+				9EB3E62D543CB4245A91F8E8 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AwsUpload;
+			productName = AwsUpload;
+			productReference = 26C333891C8B43CB00E187D6 /* AwsUpload.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26C3339F1C8B43CC00E187D6 /* AwsUploadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26C333B71C8B43CC00E187D6 /* Build configuration list for PBXNativeTarget "AwsUploadTests" */;
+			buildPhases = (
+				26C3339C1C8B43CC00E187D6 /* Sources */,
+				26C3339D1C8B43CC00E187D6 /* Frameworks */,
+				26C3339E1C8B43CC00E187D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26C333A21C8B43CC00E187D6 /* PBXTargetDependency */,
+			);
+			name = AwsUploadTests;
+			productName = AwsUploadTests;
+			productReference = 26C333A01C8B43CC00E187D6 /* AwsUploadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26C333AA1C8B43CC00E187D6 /* AwsUploadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26C333BA1C8B43CC00E187D6 /* Build configuration list for PBXNativeTarget "AwsUploadUITests" */;
+			buildPhases = (
+				26C333A71C8B43CC00E187D6 /* Sources */,
+				26C333A81C8B43CC00E187D6 /* Frameworks */,
+				26C333A91C8B43CC00E187D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26C333AD1C8B43CC00E187D6 /* PBXTargetDependency */,
+			);
+			name = AwsUploadUITests;
+			productName = AwsUploadUITests;
+			productReference = 26C333AB1C8B43CC00E187D6 /* AwsUploadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26C333811C8B43CB00E187D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sarah Griffis";
+				TargetAttributes = {
+					26C333881C8B43CB00E187D6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					26C3339F1C8B43CC00E187D6 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 26C333881C8B43CB00E187D6;
+					};
+					26C333AA1C8B43CC00E187D6 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 26C333881C8B43CB00E187D6;
+					};
+				};
+			};
+			buildConfigurationList = 26C333841C8B43CB00E187D6 /* Build configuration list for PBXProject "AwsUpload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26C333801C8B43CB00E187D6;
+			productRefGroup = 26C3338A1C8B43CB00E187D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26C333881C8B43CB00E187D6 /* AwsUpload */,
+				26C3339F1C8B43CC00E187D6 /* AwsUploadTests */,
+				26C333AA1C8B43CC00E187D6 /* AwsUploadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26C333871C8B43CB00E187D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C3339A1C8B43CC00E187D6 /* LaunchScreen.storyboard in Resources */,
+				26C333971C8B43CC00E187D6 /* Assets.xcassets in Resources */,
+				26C333921C8B43CB00E187D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C3339E1C8B43CC00E187D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C333A91C8B43CC00E187D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9EB3E62D543CB4245A91F8E8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AwsUpload/Pods-AwsUpload-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD9C94C32BB0015CF22DE613 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE0F798723197782C0FFA216 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AwsUpload/Pods-AwsUpload-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26C333851C8B43CB00E187D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C333951C8B43CC00E187D6 /* AwsUpload.xcdatamodeld in Sources */,
+				26C3338F1C8B43CB00E187D6 /* ViewController.swift in Sources */,
+				26C3338D1C8B43CB00E187D6 /* AppDelegate.swift in Sources */,
+				26E7B11E1C90E0600022F7EB /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C3339C1C8B43CC00E187D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C333A51C8B43CC00E187D6 /* AwsUploadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C333A71C8B43CC00E187D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C333B01C8B43CC00E187D6 /* AwsUploadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26C333A21C8B43CC00E187D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26C333881C8B43CB00E187D6 /* AwsUpload */;
+			targetProxy = 26C333A11C8B43CC00E187D6 /* PBXContainerItemProxy */;
+		};
+		26C333AD1C8B43CC00E187D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26C333881C8B43CB00E187D6 /* AwsUpload */;
+			targetProxy = 26C333AC1C8B43CC00E187D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26C333901C8B43CB00E187D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26C333911C8B43CB00E187D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26C333981C8B43CC00E187D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26C333991C8B43CC00E187D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26C333B21C8B43CC00E187D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26C333B31C8B43CC00E187D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26C333B51C8B43CC00E187D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DB1F5BE9ED77F0F811764A1 /* Pods-AwsUpload.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AwsUpload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paperlesspost.AwsUpload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26C333B61C8B43CC00E187D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19F3E191217B76584AA57B47 /* Pods-AwsUpload.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AwsUpload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paperlesspost.AwsUpload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		26C333B81C8B43CC00E187D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AwsUploadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paperlesspost.AwsUploadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AwsUpload.app/AwsUpload";
+			};
+			name = Debug;
+		};
+		26C333B91C8B43CC00E187D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AwsUploadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paperlesspost.AwsUploadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AwsUpload.app/AwsUpload";
+			};
+			name = Release;
+		};
+		26C333BB1C8B43CC00E187D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AwsUploadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paperlesspost.AwsUploadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AwsUpload;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		26C333BC1C8B43CC00E187D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AwsUploadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paperlesspost.AwsUploadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AwsUpload;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26C333841C8B43CB00E187D6 /* Build configuration list for PBXProject "AwsUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C333B21C8B43CC00E187D6 /* Debug */,
+				26C333B31C8B43CC00E187D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26C333B41C8B43CC00E187D6 /* Build configuration list for PBXNativeTarget "AwsUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C333B51C8B43CC00E187D6 /* Debug */,
+				26C333B61C8B43CC00E187D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26C333B71C8B43CC00E187D6 /* Build configuration list for PBXNativeTarget "AwsUploadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C333B81C8B43CC00E187D6 /* Debug */,
+				26C333B91C8B43CC00E187D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26C333BA1C8B43CC00E187D6 /* Build configuration list for PBXNativeTarget "AwsUploadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C333BB1C8B43CC00E187D6 /* Debug */,
+				26C333BC1C8B43CC00E187D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		26C333931C8B43CC00E187D6 /* AwsUpload.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				26C333941C8B43CC00E187D6 /* AwsUpload.xcdatamodel */,
+			);
+			currentVersion = 26C333941C8B43CC00E187D6 /* AwsUpload.xcdatamodel */;
+			path = AwsUpload.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 26C333811C8B43CB00E187D6 /* Project object */;
+}
